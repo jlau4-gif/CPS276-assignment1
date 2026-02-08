@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="container">
-<!--this is where your form will go-->
+<!--html lang="en"> <label for="inputCity" class="form-label">City</label> <input type="text" class="form-control" id="inputCity"-->
 <form class="row g-3">
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">First Name</label>
+    <label for="inputfirstname" class="form-label">First Name</label>
     <input type="Firstname" class="form-control" id="firstname">
   </div>
+<!--the set of options chosen by the same name="contact" -->  
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Last Name</label>
+    <label for="inputlastname" class="form-label">Last Name</label>
     <input type="lastname" class="form-control" id="lastname">
   </div>
   <div class="col-12">
@@ -26,11 +27,12 @@
     <input type="text" class="form-control" id="inputCity">
   </div>
   <div class="col-md-4">
+<!--The ID =inputstate" --Michigan is listed as 'selected option' and in 3rd position -->  
     <label for="inputState" class="form-label">State</label>
     <select id="inputState" class="form-select">
       <option value="Ohio">Ohio</option>
       <option value="New York">New York</option>
-      <option value="Michigan">Michigan</option>
+      <option value="Michigan" selected>Michigan</option>
       <option value="Florida">Florida</option>
       <option value="Texas">Texas</option>
     </select>
